@@ -44,3 +44,16 @@ La organización dispone actualmente de tres servidores tipo torre que operan de
 
   - ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
+--- 
+
+## Configuración Inicial:
+
+- Se actualiza el sistema:
+
+  `ubuntu
+    sudo apt update && sudo apt upgrade -y
+  `    
+       
+- 
+    
+      
