@@ -54,7 +54,7 @@ La organización dispone actualmente de tres servidores tipo torre que operan de
     sudo apt update && sudo apt upgrade -y
   `    
        
-- Instalar Docker y Podman:
+- Instalar Docker:
 
   1. Instalar Docker:
 
@@ -75,4 +75,17 @@ La organización dispone actualmente de tres servidores tipo torre que operan de
 
       `ubuntu
        sudo docker --version
+     `
+     
+- Instalar Podman:
+  
+  1. Instalar Podman:
+
+     `ubuntu
+       sudo apt install podman -y
+     `
+  2. Inicia el servicio de Docker, haciéndolo operativo:
+     
+     `ubuntu
+        podman --version
      `
