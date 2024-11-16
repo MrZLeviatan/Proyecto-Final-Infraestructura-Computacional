@@ -54,6 +54,25 @@ La organización dispone actualmente de tres servidores tipo torre que operan de
     sudo apt update && sudo apt upgrade -y
   `    
        
-- 
-    
-      
+- Instalar Docker y Podman:
+
+  1. Instalar Docker:
+
+     `ubuntu
+       sudo apt install docker.io -y
+     `
+  2. Inicia el servicio de Docker, haciéndolo operativo:
+     
+     `ubuntu
+       sudo systemctl start docker
+     `
+  3. Habilita el inicio automático de Docker en futuros reinicios del sistema.
+
+      `ubuntu
+       sudo systemctl enable docker
+     `
+  4. Verificacion Docker:
+
+      `ubuntu
+       sudo docker --version
+     `
