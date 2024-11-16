@@ -10,6 +10,7 @@ Diseñar y desplegar una solución de virtualización para consolidar la infraes
 1. [Contexto](#-contexto)
 2. [Características](#-características)
 3. [Herramientas](#-herramientas)
+4. [Configuracion Inicial](#configuración-inicial)
 
 ---
 
