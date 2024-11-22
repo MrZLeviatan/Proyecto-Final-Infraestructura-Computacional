@@ -13,6 +13,7 @@ Diseñar y desplegar una solución de virtualización para consolidar la infraes
 4. [Configuración Inicial](#configuración-inicial)
 5. [Configuración de RAID y LVM](#configuración-de-raid-y-lvm)
 6. [Configuracion de Contenedores](#configuracion-de-contenedores)
+7. [Creacion de Contenedores](#creacion-de-contenedores)
    
 
 ---
@@ -164,3 +165,7 @@ Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garant
         - Creamos un archivo Dockerfile en el directorio nginx:
 
           [![12.png](https://i.postimg.cc/nLCwLcxg/12.png)](https://postimg.cc/HJ1tZmV9)
+
+---
+
+## Creacion de Contenedores
