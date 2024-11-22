@@ -169,3 +169,18 @@ Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garant
 ---
 
 ## Creacion de Contenedores
+
+   1. Construimos las imagenes Docker:
+
+       - Consruimos la imagen para **Apache**
+     
+         [![13.png](https://i.postimg.cc/8PzdGXNn/13.png)](https://postimg.cc/Rq2JQR3c)
+
+      - Construimos la imagen para **MySql**
+
+        [![14.png](https://i.postimg.cc/Gpws4XnR/14.png)](https://postimg.cc/qNw7YX7D)
+
+      - Construimos la imagen para **Nginx**
+
+        [![15.png](https://i.postimg.cc/kg82PW6p/15.png)](https://postimg.cc/Mn66yMY7)
+        
