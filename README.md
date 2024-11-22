@@ -14,6 +14,7 @@ Diseñar y desplegar una solución de virtualización para consolidar la infraes
 5. [Configuración de RAID y LVM](#configuración-de-raid-y-lvm)
 6. [Configuracion de Contenedores](#configuracion-de-contenedores)
 7. [Creacion de Contenedores](#creacion-de-contenedores)
+8. [Funcionamiento](#funcionamiento)
    
 
 ---
@@ -198,3 +199,6 @@ Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garant
 
            [![18.png](https://i.postimg.cc/MHMWb81F/18.png)](https://postimg.cc/4HGksqL6)
 
+---
+
+## Funcionamiento
