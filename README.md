@@ -130,3 +130,7 @@ Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garant
        - Crear volúmenes lógicos:   
 
          [![7.png](https://i.postimg.cc/26phhCYs/7.png)](https://postimg.cc/94pDj5rb)
+
+      - Montar los volumenes logicos en sus carpetas respetivas:
+
+        [![8.png](https://i.postimg.cc/8cDFZcP0/8.png)](https://postimg.cc/CBPL1F8G)
