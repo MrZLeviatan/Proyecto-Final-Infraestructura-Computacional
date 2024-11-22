@@ -9,9 +9,9 @@ Diseñar y desplegar una solución de virtualización para consolidar la infraes
 ## 📚 Tabla de Contenidos
 1. [Contexto](#-contexto)
 2. [Características](#-características)
-3. [Herramientas](-herramientas)
+3. [Herramientas](#-herramientas)
 5. [Configuracion Inicial](#configuración-inicial)
-6. [Configuración de RAID y LVM](-Configuración-de-RAID-y-LVM)
+6. [Configuración de RAID y LVM](#-Configuración-de-RAID-y-LVM)
    
 
 ---
