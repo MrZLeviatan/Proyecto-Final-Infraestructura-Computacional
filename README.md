@@ -10,8 +10,8 @@ Diseñar y desplegar una solución de virtualización para consolidar la infraes
 1. [Contexto](#-contexto)
 2. [Características](#-características)
 3. [Herramientas](#-herramientas)
-5. [Configuracion Inicial](#configuración-inicial)
-6. [Configuración de RAID y LVM](#Configuracion-de-RAID-y-LVM)
+4. [Configuración Inicial](#configuración-inicial)
+5. [Configuración de RAID y LVM](#configuración-de-raid-y-lvm)
    
 
 ---
@@ -96,6 +96,7 @@ La organización dispone actualmente de tres servidores tipo torre que operan de
 ---
 
 ## Configuración de RAID y LVM:
+
 Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garantizando redundancia al duplicar los datos entre discos pareados. Posteriormente, se implementaron volúmenes lógicos con LVM sobre cada RAID, permitiendo una gestión flexible del espacio de almacenamiento. Los volúmenes fueron formateados y montados en directorios específicos para ser utilizados por los contenedores de Apache, MySQL y Nginx.
 
   -  Se verifica la crearion de 6 discos en la maquina virtual
