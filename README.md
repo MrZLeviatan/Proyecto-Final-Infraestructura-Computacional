@@ -9,10 +9,9 @@ Diseñar y desplegar una solución de virtualización para consolidar la infraes
 ## 📚 Tabla de Contenidos
 1. [Contexto](#-contexto)
 2. [Características](#-características)
-3. [Herramientas](#-herramientas)
-4. [Tools](#️-tools--herramientas) / [Herramientas](#️-tools--herramientas)
-5. [Configuración Inicial](#configuración-inicial)
-6. [Configuración de RAID y LVM](#configuración-de-raid-y-lvm)
+3. [Herramientas](#️-herramientas)
+4. [Configuración Inicial](#configuración-inicial)
+5. [Configuración de RAID y LVM](#configuración-de-raid-y-lvm)
    
 
 ---
@@ -40,7 +39,7 @@ La organización dispone actualmente de tres servidores tipo torre que operan de
 
 ---
 
-## 🛠️ Tools / Herramientas
+## 🛠️ Herramientas
 
   - ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
     
