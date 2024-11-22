@@ -184,3 +184,17 @@ Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garant
 
         [![15.png](https://i.postimg.cc/kg82PW6p/15.png)](https://postimg.cc/Mn66yMY7)
         
+   2. Creamos y ejecutamos los contenedores : Una vez que las imagenes esten construidas, se puede crear y ejecutar los contenedores.
+
+      -   Contenedor **Apache**
+
+           [![16.png](https://i.postimg.cc/rFRm55Jw/16.png)](https://postimg.cc/crZ0Sg2p)
+
+      - Contenedor **MySQL**
+     
+           [![17.png](https://i.postimg.cc/pdCXPC2q/17.png)](https://postimg.cc/SXXprWYM)
+
+      - Contenedor **Nginx**
+
+           [![18.png](https://i.postimg.cc/MHMWb81F/18.png)](https://postimg.cc/4HGksqL6)
+
