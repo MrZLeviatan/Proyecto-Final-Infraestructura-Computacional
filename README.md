@@ -108,6 +108,10 @@ Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garant
        
        [![imagen-2024-11-22-083841563.png](https://i.postimg.cc/pTL1NVww/imagen-2024-11-22-083841563.png)](https://postimg.cc/DWRcLhy6)   
 
-     - Crear RAID 1 mediante mdadm.
+     - Crear RAID 1 mediante mdadm:
 
-       [![imagen-2024-11-22-084607819.png](https://i.postimg.cc/4xMz4fhC/imagen-2024-11-22-084607819.png)](https://postimg.cc/qNstjdLQ)
+       [![3.png](https://i.postimg.cc/Mpdz1Hm4/3.png)](https://postimg.cc/4YHCgJMb)
+
+    - Se Verifica la creacion de los 3 RAID:
+
+      [![4.png](https://i.postimg.cc/MGHq5wsG/4.png)](https://postimg.cc/nXyyVyf8)
