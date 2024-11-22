@@ -12,6 +12,7 @@ Diseñar y desplegar una solución de virtualización para consolidar la infraes
 3. [Herramientas](#️-herramientas)
 4. [Configuración Inicial](#configuración-inicial)
 5. [Configuración de RAID y LVM](#configuración-de-raid-y-lvm)
+6. [Configuracion de Contenedores](#configuracion-de-contenedores)
    
 
 ---
@@ -108,7 +109,7 @@ Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garant
        
        [![imagen-2024-11-22-083841563.png](https://i.postimg.cc/pTL1NVww/imagen-2024-11-22-083841563.png)](https://postimg.cc/DWRcLhy6)   
 
-     - Crear RAID 1 mediante mdadm:
+     - Crear RAID 1 mediante **mdadm**:
 
        [![3.png](https://i.postimg.cc/Mpdz1Hm4/3.png)](https://postimg.cc/4YHCgJMb)
 
@@ -134,3 +135,32 @@ Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garant
       - Montar los volumenes logicos en sus carpetas respetivas:
 
         [![8.png](https://i.postimg.cc/8cDFZcP0/8.png)](https://postimg.cc/CBPL1F8G)
+
+---
+
+## Configuracion de Contenedores
+
+   - Crear Dockerfiles
+     Un Dockerfile es un archivo de texto que contiene instrucciones secuenciales para construir una imagen de Docker personalizada. Este archivo permite automatizar la configuración de un entorno de ejecución, garantizando      consistencia y portabilidad para aplicaciones y servicios. La creación de un Dockerfile implica definir una base sólida y agregar capas de personalización según las necesidades específicas del proyecto.
+
+     ### Crear dockerfile **Apache**
+          
+        - Creamos un archivo Dockerfile en el directorio apache :
+    
+          [![9.png](https://i.postimg.cc/DZNjsVv0/9.png)](https://postimg.cc/FdjV5BJX)
+    
+        -  Creamos un archivo .html ppara prueba:
+
+           [![10.png](https://i.postimg.cc/0NXRtB5R/10.png)](https://postimg.cc/jWfF2vJZ)
+
+      ### Crear dockerfile **MySql**
+
+        - Creamos un archivo Dockerfile en el directorio mysql:
+    
+          [![11.png](https://i.postimg.cc/qR6Y1BZy/11.png)](https://postimg.cc/CBYm100x)
+
+      ### Crear dockerfile **Nginx**
+
+        - Creamos un archivo Dockerfile en el directorio nginx:
+
+          [![12.png](https://i.postimg.cc/nLCwLcxg/12.png)](https://postimg.cc/HJ1tZmV9)
