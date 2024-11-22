@@ -202,3 +202,12 @@ Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garant
 ---
 
 ## Funcionamiento
+
+   -Al ejecutar el contenedor de apache:
+
+   [![19.png](https://i.postimg.cc/L5NbXqqd/19.png)](https://postimg.cc/K33Np8rQ)
+
+   - Al ejecutar el contenedor de nginx:
+
+   
+      
