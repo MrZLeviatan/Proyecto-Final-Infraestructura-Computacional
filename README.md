@@ -99,9 +99,15 @@ La organización dispone actualmente de tres servidores tipo torre que operan de
 Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garantizando redundancia al duplicar los datos entre discos pareados. Posteriormente, se implementaron volúmenes lógicos con LVM sobre cada RAID, permitiendo una gestión flexible del espacio de almacenamiento. Los volúmenes fueron formateados y montados en directorios específicos para ser utilizados por los contenedores de Apache, MySQL y Nginx.
 
   -  Se verifica la crearion de 6 discos en la maquina virtual
+    
+      [![imagen-2024-11-22-075255627.png](https://i.postimg.cc/L8thZmJg/imagen-2024-11-22-075255627.png)](https://postimg.cc/hXGKkWbK)
 
- <p align="center">
-  
-   [![imagen-2024-11-22-075255627.png](https://i.postimg.cc/L8thZmJg/imagen-2024-11-22-075255627.png)](https://postimg.cc/hXGKkWbK)
+  - Crear RAID Nivel 1
+     
+     - Identificar discos disponibles:
+       
+       [![imagen-2024-11-22-083841563.png](https://i.postimg.cc/pTL1NVww/imagen-2024-11-22-083841563.png)](https://postimg.cc/DWRcLhy6)   
 
-</p>
+     - Crear RAID 1 mediante mdadm.
+
+       [![imagen-2024-11-22-084607819.png](https://i.postimg.cc/4xMz4fhC/imagen-2024-11-22-084607819.png)](https://postimg.cc/qNstjdLQ)
