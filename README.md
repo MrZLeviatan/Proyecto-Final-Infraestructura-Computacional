@@ -102,7 +102,7 @@ Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garant
     
       [![imagen-2024-11-22-075255627.png](https://i.postimg.cc/L8thZmJg/imagen-2024-11-22-075255627.png)](https://postimg.cc/hXGKkWbK)
 
-  - Crear RAID Nivel 1
+  - Crear RAID Nivel 1:
      
      - Identificar discos disponibles:
        
@@ -115,3 +115,18 @@ Se configuraron tres arreglos RAID nivel 1 utilizando discos disponibles, garant
     - Se Verifica la creacion de los 3 RAID:
 
       [![4.png](https://i.postimg.cc/MGHq5wsG/4.png)](https://postimg.cc/nXyyVyf8)
+
+
+   - Crear Volúmenes Lógicos (LVM):
+
+        - Crear volúmenes físicos:
+
+          [![5.png](https://i.postimg.cc/J0q2SD0C/5.png)](https://postimg.cc/q6Nw3721)
+
+        - Crear grupos de volúmenes:
+          
+          [![6.png](https://i.postimg.cc/sxNpBs0Z/6.png)](https://postimg.cc/QKcBwGDX)
+
+       - Crear volúmenes lógicos:   
+
+         [![7.png](https://i.postimg.cc/26phhCYs/7.png)](https://postimg.cc/94pDj5rb)
